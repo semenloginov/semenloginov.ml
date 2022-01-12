@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>semenloginov.ru</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.min.css" />
+    <!-- media css -->
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a class="header__link" href="#me">КТО Я</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#for">ДЛЯ ЧЕГО НУЖЕН</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#services">УСЛУГИ</a>
+              </li>
+              <li class="header__item">
+                <a class="header__link" href="#contact">КОНТАКТЫ</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="header__burger">
+            <div class="header__burger-item header__burger-item--1"></div>
+            <div class="header__burger-item header__burger-item--2"></div>
+            <div class="header__burger-item header__burger-item--3"></div>
+            <div class="header__burger-item header__burger-item--4"></div>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <h1 class="hero__title title">
+              <span class="hero__title-line">СММ</span>
+              <span class="hero__title-line">ВИЗУАЛ</span>
+              <span class="hero__title-line">ПРОДВИЖЕНИЕ</span>
+            </h1>
+          </div>
+        </div>
+      </section>
+      <section class="me" id="me">
+        <div class="container">
+          <div class="me__inner">
+            <div class="me__img-wrapper">
+              <img
+                class="me__img"
+                src="images/me.jpg"
+                alt="Моя фотография СММ специалиста"
+              />
+            </div>
+            <div class="me__info">
+              <h2 class="me__title title">КТО Я</h2>
+              <p class="me__paragraph">Здравствуй! Меня зовут Семён.</p>
+              <p class="me__paragraph">
+                Я СММ-специалист, визуализатор и креативный человек. Около года
+                я занимаюсь оформлением и продвижением личных и комерческих
+                страниц. Моя цель - сделать так, чтобы твой аккаунт привлекал
+                внимание, отличал от конкруентов и привлекал новых подписчиков.
+              </p>
+              <p class="me__paragraph">
+                Ниже ты подробнее узнаешь
+                <span class="me__paragraph-bold">о моих</span>
+                <a class="me__paragraph-mark" href="#services">услугах</a>
+                и ценах на них.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="for" id="for">
+        <div class="container">
+          <div class="for__inner">
+            <h3 class="for__title title-lines">ДЛЯ ЧЕГО НУЖЕН</h3>
+            <ul class="for__list">
+              <li class="for__item">
+                <h4 class="for__item-title">Привлечение клиентов</h4>
+                <p class="for__item-paragraph">
+                  В визуале, где всё понятно и расставлено по полочкам, клиент
+                  сам захочет купить у вас услугу или продукт. Соответственно,
+                  если ваш продукт ему понравится, с большой вероятностью
+                  посоветует вас своим знакомым и так по цепочке клиенты сами к
+                  вам прийдут.
+                </p>
+              </li>
+              <li class="for__item">
+                <h4 class="for__item-title">Повышение активности</h4>
+                <p class="for__item-paragraph">
+                  Нет смысла продавать продукт на холодную аудиторию. Повышение
+                  активности путем грамотно-оформленного визуала поможет
+                  увеличить лояльность клиентов, а вместе с ним и спрос на вас и
+                  ваши услуги.
+                </p>
+              </li>
+              <li class="for__item">
+                <h4 class="for__item-title">Увеличение прибыли</h4>
+                <p class="for__item-paragraph">
+                  Если человек лоялен к вам, то он с большей вероятностью купит
+                  вашу услугу. Имея правильный продающий профиль и сильный
+                  личный бренд можно повысить свои доходы в несколько раз.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="services" id="services">
+        <div class="container">
+          <div class="services__inner">
+            <h3 class="services__title title-lines">УСЛУГИ</h3>
+            <div class="services__accordion accordion">
+              <ul class="accordion__list">
+                <li class="accordion__item">
+                  <button class="accordion__btn" aria-expanded="false">
+                    <h5 class="accordion__title">Консультация</h5>
+                    <span class="accordion__icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect y="11" width="24" height="2" fill="#005926" />
+                        <rect
+                          x="13"
+                          width="24"
+                          height="2"
+                          transform="rotate(90 13 0)"
+                          fill="#005926"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                  <div class="accordion__content" aria-hidden="true">
+                    <ul class="accordion__content-list">
+                      <h6 class="accordion__content-subtitle">
+                        В разбор входит:
+                      </h6>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        ник, аватарка.
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        шапка профиля
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        закреплённые сторис
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        визуал
+                      </li>
+                    </ul>
+                    <ul class="accordion__content-list">
+                      <h6 class="accordion__content-subtitle">
+                        Дополнительно:
+                      </h6>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        обработка 9 фото.
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        оформление иконок актуального предложения.
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        9 тем для постов
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        визуал
+                      </li>
+                    </ul>
+                    <div class="accordion__content-price">
+                      Цена
+                      <span class="accordion__content-price--green">
+                        2500 ₽
+                      </span>
+                    </div>
+                    <a class="accordion__content-link" href="#contact">
+                      Хочу на консультацию
+                    </a>
+                  </div>
+                </li>
+                <li class="accordion__item">
+                  <button class="accordion__btn" aria-expanded="false">
+                    <h5 class="accordion__title">Визуал под ключ</h5>
+                    <span class="accordion__icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect y="11" width="24" height="2" fill="#005926" />
+                        <rect
+                          x="13"
+                          width="24"
+                          height="2"
+                          transform="rotate(90 13 0)"
+                          fill="#005926"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                  <div class="accordion__content" aria-hidden="true">
+                    <ul class="accordion__content-list">
+                      <h6 class="accordion__content-subtitle">
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        подбор референсов
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        объёмное и подробное ТЗ фотографу
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        визуал на 12 - 18 фото
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        обработка готовых фото
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        разбор предыдущего визуала и постов
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        консультация по дальнейшему постингу
+                      </li>
+                    </ul>
+
+                    <div
+                      class="accordion__content-price accordion__content-price--bottom"
+                    >
+                      Цена
+                      <span class="accordion__content-price--green">
+                        6200 ₽
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li class="accordion__item">
+                  <button class="accordion__btn" aria-expanded="false">
+                    <h5 class="accordion__title">Упаковка профиля</h5>
+                    <span class="accordion__icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect y="11" width="24" height="2" fill="#005926" />
+                        <rect
+                          x="13"
+                          width="24"
+                          height="2"
+                          transform="rotate(90 13 0)"
+                          fill="#005926"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                  <div class="accordion__content" aria-hidden="true">
+                    <ul class="accordion__content-list">
+                      <h6 class="accordion__content-subtitle">
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        проведение анализа конкурентов, анализа аккаунта,
+                        анализа ЦА
+                      </li>
+
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        оформление шапки профиля, создание обложек highlights
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        работа с аватаром, ником
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        подбор референсов для фотосессии
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        создание текстовых шаблонов постов
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        составление визуала на 15-30 фото
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        написание контент-плана для постов и stories на 15-30
+                        дней
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        создание основных тем, рубри
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        подробное ТЗ фотографу
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        создание основных тем, рубри
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        обработка фотографий
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        поиск фотографа и студии при необходимости
+                      </li>
+                    </ul>
+
+                    <div
+                      class="accordion__content-price accordion__content-price--bottom"
+                    >
+                      Цена
+                      <span class="accordion__content-price--green">
+                        9800 ₽
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li class="accordion__item">
+                  <button class="accordion__btn" aria-expanded="false">
+                    <h5 class="accordion__title">Ведение аккаунта</h5>
+                    <span class="accordion__icon">
+                      <svg
+                        width="24"
+                        height="24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect y="11" width="24" height="2" fill="#005926" />
+                        <rect
+                          x="13"
+                          width="24"
+                          height="2"
+                          transform="rotate(90 13 0)"
+                          fill="#005926"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                  <div class="accordion__content" aria-hidden="true">
+                    <ul class="accordion__content-list">
+                      <h6 class="accordion__content-subtitle">
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        проведение анализа конкурентов, анализа аккаунта,
+                        анализа ЦА
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        оформление шапки профиля, создание обложек highlights
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        работа с аватаром, ником
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        ежемесячный подбор референсов для фотосессии
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        подробное ТЗ фотографу
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        разработка визуала
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        ежемесячное написание контент-плана для постов
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        ежемесячное прописание контент-плана для stories
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        монтаж и дизайн stories
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        обработка фотографий
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        подбор хештегов и геометок
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        ежедневный постинг постов и stories
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        поиск блогеров для рекламы
+                      </li>
+                      <li class="accordion__content-item">
+                        <span class="accordion__content-line">-</span>
+                        проведение и организация конкурсов и марафонов
+                      </li>
+                    </ul>
+
+                    <div
+                      class="accordion__content-price accordion__content-price--bottom"
+                    >
+                      Цена
+                      <span class="accordion__content-price--green">
+                        21000 ₽ / месяц
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="contact" id="contact">
+        <div class="container">
+          <div class="contact__inner">
+            <div class="contact__info">
+              <p class="contact__title title title-lines">
+                Появились
+                <br />
+                вопросы?
+              </p>
+              <p class="contact__paragraph">Напишите мне, и я отвечу на них!</p>
+              <ul class="contact__list">
+                <li class="contact__item">
+                  <a
+                    class="contact__link contact__telegram"
+                    href="https://t.me/loginovsemen"
+                    target="_blank"
+                  >
+                    @loginovsemen
+                  </a>
+                </li>
+                <li class="contact__item">
+                  <a
+                    class="contact__link contact__whatshap"
+                    href="https://wa.me/+79033823182"
+                    target="_blank"
+                  >
+                    +7 (903) 382-31-82
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
